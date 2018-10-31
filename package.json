@@ -15,6 +15,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/pwa": "^2.6.0",
     "animate.css": "^3.6.1",
     "nuxt": "^1.0.0",
     "vue-hover-parallax": "Aminerman/vue-mouse-parallax",

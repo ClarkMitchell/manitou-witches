@@ -24,6 +24,13 @@ module.exports = {
     '@assets/animate.min.css',
     '@assets/global.css'
   ],
+    modules: [
+        '@nuxtjs/pwa'
+    ],
+    manifest: {
+        theme_color: '#303030',
+        background_color: '#303030'
+    },
   /*
   ** Customize the progress bar color
   */
