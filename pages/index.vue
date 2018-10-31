@@ -4,19 +4,14 @@
         <h1 class="title">
           There are Witches in Manitou.
         </h1>
-        <h2 class="subtitle">
-          e
-        </h2>
+        <img src="/belial.png">
       </div>
   </div>
 </template>
 
 <script>
 export default {
-  created: function() {
-    var banner = document.getElementById('mfPreviewBar');
-    banner.outerHTML = '';
-  },
+
 };
 </script>
 
@@ -36,13 +31,16 @@ export default {
 }
 
 .title {
-  font-family: 'Witchfinder Script Old';
-  font-size: 8vw;
+  font-family: "Witchfinder Script Old";
+  font-size: 9vw;
+  font-color: #F0F0F0
 }
 
-.subtitle {
-  font-family: 'Witchfinder Demons';
-  font-size: 10vw;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 7vw;
 }
 
 .headline {
